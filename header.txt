@@ -1,3 +1,117 @@
-1-git add .
-2-git commit -m "arrange all containers and add instagram account"
-3-git push -u https://github.com/AhmadMubayed/Ahmad.Mubayed
+Microsoft Windows [Version 10.0.19045.3324]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git init
+Reinitialized existing Git repository in C:/Users/ahmad.mubayed/Documents/my details/AhmadMubayed/.git/
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git add .
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git commit -m "last"
+[main b773361] last
+ 1 file changed, 2 insertions(+)
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git push
+warning: ----------------- SECURITY WARNING ----------------
+warning: | TLS certificate verification has been disabled! |
+warning: ---------------------------------------------------
+warning: HTTPS connections may not be secure. See https://aka.ms/gcm/tlsverify for more information.
+warning: ----------------- SECURITY WARNING ----------------
+warning: | TLS certificate verification has been disabled! |
+warning: ---------------------------------------------------
+warning: HTTPS connections may not be secure. See https://aka.ms/gcm/tlsverify for more information.
+To https://github.com/AhmadMubayed/Ahmad.Mubayed
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/AhmadMubayed/Ahmad.Mubayed'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git push origin https://github.com/AhmadMubayed/Ahmad.Mubayed.git
+fatal: invalid refspec 'https://github.com/AhmadMubayed/Ahmad.Mubayed.git'
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git push origin https://github.com/AhmadMubayed/Ahmad.Mubayed
+fatal: invalid refspec 'https://github.com/AhmadMubayed/Ahmad.Mubayed'
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git push origin https://github.com/AhmadMubayed/Ahmad.Mubayed.git
+fatal: invalid refspec 'https://github.com/AhmadMubayed/Ahmad.Mubayed.git'
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git remote set-url origin https://github.com/AhmadMubayed/Ahmad.Mubayed.git
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git push origin https://github.com/AhmadMubayed/Ahmad.Mubayed.git
+fatal: invalid refspec 'https://github.com/AhmadMubayed/Ahmad.Mubayed.git'
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git remote -v
+origin  https://github.com/AhmadMubayed/Ahmad.Mubayed.git (fetch)
+origin  https://github.com/AhmadMubayed/Ahmad.Mubayed.git (push)
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git push origin main:main
+warning: ----------------- SECURITY WARNING ----------------
+warning: | TLS certificate verification has been disabled! |
+warning: ---------------------------------------------------
+warning: HTTPS connections may not be secure. See https://aka.ms/gcm/tlsverify for more information.
+warning: ----------------- SECURITY WARNING ----------------
+warning: | TLS certificate verification has been disabled! |
+warning: ---------------------------------------------------
+warning: HTTPS connections may not be secure. See https://aka.ms/gcm/tlsverify for more information.
+To https://github.com/AhmadMubayed/Ahmad.Mubayed.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/AhmadMubayed/Ahmad.Mubayed.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git pull origin main
+remote: Enumerating objects: 51, done.
+remote: Counting objects: 100% (51/51), done.
+remote: Compressing objects: 100% (22/22), done.
+remote: Total 32 (delta 19), reused 19 (delta 6), pack-reused 0
+Unpacking objects: 100% (32/32), 7.34 KiB | 40.00 KiB/s, done.
+From https://github.com/AhmadMubayed/Ahmad.Mubayed
+ * branch            main       -> FETCH_HEAD
+   b079a38..4e43eaa  main       -> origin/main
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git add <resolved-files>
+The syntax of the command is incorrect.
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git add <resolved-files>
+The syntax of the command is incorrect.
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git add .
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git commit -m "lastAhmad"
+[main 871c37b] lastAhmad
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>git push origin main
+warning: ----------------- SECURITY WARNING ----------------
+warning: | TLS certificate verification has been disabled! |
+warning: ---------------------------------------------------
+warning: HTTPS connections may not be secure. See https://aka.ms/gcm/tlsverify for more information.
+warning: ----------------- SECURITY WARNING ----------------
+warning: | TLS certificate verification has been disabled! |
+warning: ---------------------------------------------------
+warning: HTTPS connections may not be secure. See https://aka.ms/gcm/tlsverify for more information.
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 2.92 KiB | 1.46 MiB/s, done.
+Total 7 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To https://github.com/AhmadMubayed/Ahmad.Mubayed.git
+   4e43eaa..871c37b  main -> main
+
+C:\Users\ahmad.mubayed\Documents\my details\AhmadMubayed>
